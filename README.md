@@ -1,4 +1,4 @@
-# 🎓 SOLID-Based Online Course Management System
+# 🎓 SOLID Property Based - Online Course Management System
 
 This is a Spring Boot-based backend application demonstrating the **SOLID principles** using a real-world use case of an Online Course Management System. It is structured with proper layered architecture and follows industry best practices.
 
