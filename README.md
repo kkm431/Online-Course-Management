@@ -65,24 +65,29 @@ This is a Spring Boot-based backend application demonstrating the **SOLID princi
 
 src/
 ├── controller/
-│   └── CourseController.java
+│   ├── CourseController.java
+│   ├── PaymentController.java
+│   └── UserController.java
 ├── service/
 │   ├── CourseService.java
 │   ├── PaymentService.java
+│   ├── userService.java
 │   └── NotificationService.java
 ├── repository/
+│   ├── UserRepository.java
 │   └── CourseRepository.java
 ├── model/
 │   ├── Course.java
+│   ├── Admin.java
+│   ├── Student.java
 │   └── User.java
-├── strategy/
+├── payment/
 │   ├── Payment.java
 │   ├── CreditCardPayment.java
-│   └── UPIPayment.java
+│   └── PayPalPayment.java
 ├── notification/
-│   ├── Notification.java
 │   ├── EmailNotification.java
-│   └── SMSNotification.java
+│   └── Notification.java
 └── Application.java
 
 ````
